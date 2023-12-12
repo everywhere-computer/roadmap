@@ -1,6 +1,6 @@
 name: Feature Request
 description: Suggest an idea for this project
-title: "[Request]: "
+title: "[Request]: [Short Descriptive Title] "
 labels: ["request","fresh"]
 assignees:
   - depatchedmode
@@ -8,15 +8,7 @@ projects: ["everywhere-computer/projects/1"]
 body:
   - type: markdown
     attributes:
-      value: "Thank you for taking the time to suggest a feature. Please fill out the following information to help us understand your proposal."
-
-  - type: textarea
-    attributes:
-      label: "Short Descriptive Title"
-      description: "Provide a brief and descriptive title for your feature request."
-      placeholder: "Title of your feature request"
-    validations:
-      required: true
+      value: "Thank you for taking the time to suggest a feature. Please fill out the following information to help us understand your proposal. And then give it a short, descriptive title."
 
   - type: textarea
     attributes:
