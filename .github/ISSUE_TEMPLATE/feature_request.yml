@@ -1,0 +1,59 @@
+name: Feature Request
+about: Suggest an idea for this project
+title: '[Feature Request]: '
+labels: ['request','fresh']
+assignees:
+  - depatchedmode
+projects: ['everywhere-computer/projects/1']
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for taking the time to suggest a feature. Please fill out the following information to help us understand your proposal."
+
+  - type: input
+    attributes:
+      label: "Short Descriptive Title"
+      description: "Provide a brief and descriptive title for your feature request."
+      placeholder: "Title of your feature request"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Feature Description"
+      description: "Describe the feature and how it adds value."
+      placeholder: "Describe your feature here."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Use Case"
+      description: "Describe a specific and critical scenario where this feature would be used."
+      placeholder: "Example use case for the feature."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Current workaround"
+      description: "How do you get the job done right now, without this feature?"
+      placeholder: "Example use case for the feature."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Suggested Implementation (Optional)"
+      description: "If you have ideas on how this feature could be implemented, please share them here."
+      placeholder: "Your implementation suggestions."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Additional Context (Optional)"
+      description: "Add any other context, screenshots or links to related issues here."
+      placeholder: "Any additional information."
+    validations:
+      required: false
