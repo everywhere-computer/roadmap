@@ -30,7 +30,7 @@ body:
     attributes:
       label: "Current workaround"
       description: "How do you get the job done right now, without this feature?"
-      placeholder: "Example use case for the feature."
+      placeholder: "Let us know how you currently address the problem."
     validations:
       required: false
 
