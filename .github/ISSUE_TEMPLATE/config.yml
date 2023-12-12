@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Everywhere Computer Discord Forum
+    url: https://discord.com/channels/478735028319158273/1182384404887244860
+    about: Please ask and answer questions here.
+  - name: Control Panel Bugs
+    url: https://github.com/everywhere-computer/control-panel/issues
+    about: Please report issues with the Control Panel here.
