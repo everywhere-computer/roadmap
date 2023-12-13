@@ -4,7 +4,7 @@ title: "[Request]: [Short Descriptive Title] "
 labels: ["request","fresh"]
 assignees:
   - depatchedmode
-projects: ["everywhere-computer/projects/1"]
+projects: "everywhere-computer/1"
 body:
   - type: markdown
     attributes:
