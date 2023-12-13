@@ -8,7 +8,7 @@ projects: ["everywhere-computer/projects/1"]
 body:
   - type: markdown
     attributes:
-      value: "Thank you for taking the time to suggest a feature. Please fill out the following information to help us understand your proposal. And then give it a short, descriptive title. The more thoughtful and complete your submission is, the more likely it is to get engagement from the team and community."
+      value: "Thank you for taking the time to suggest a feature. Please fill out the following information to help us understand your proposal. And then give it a short, descriptive title."
 
   - type: textarea
     attributes:
@@ -36,7 +36,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "### Optional Fields\nConsider taking time to fill out the following sections as well. The more thoughtful and complete your submission is, the more likely it is to get engagement from the team and community." 
+      value: "## Optional Fields\nConsider taking time to fill out the following sections as well. The more thoughtful and complete your submission is, the more likely it is to get engagement from the team and community." 
 
   - type: textarea
     attributes:
