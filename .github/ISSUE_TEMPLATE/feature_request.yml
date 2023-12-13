@@ -30,15 +30,28 @@ body:
     attributes:
       label: "Signals of Success"
       description: "What might we observe, or directly measure in the system, that would indicate the use cases are being addressed."
-      placeholder: "List things we could measure or observe"
+      placeholder: "List things we could measure or observe."
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: "### Optional Fields" +
+             "Consider taking time to fill out the following sections as well. The more thoughtful and complete your submission is, the more likely it is to get engagement from the team and community." 
 
   - type: textarea
     attributes:
       label: "Current Workarounds (optional)"
       description: "How do you get the job done right now, without the functionality you're describing?"
       placeholder: "Let us know how you currently address the problem."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Evidence of Value (Optional)"
+      description: "Beyond just your own experience and opinions, what other evidence do you see that this functionality would be valuable. Questions you might answer: How do we know this is important? What portion of the community is this relevant to? Do you see precedents in other similar systems?"
+      placeholder: "List evidence of this feature's value."
     validations:
       required: false
 
