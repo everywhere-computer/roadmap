@@ -1,0 +1,39 @@
+name: Custom Function Request
+description: Suggest a new function for the Everywhere Computer
+title: "[Function]: [Short Description]"
+labels: ["request","fresh","function"]
+assignees:
+  - depatchedmode
+projects: "everywhere-computer/1"
+body:
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: "Briefly describe the function and its purpose."
+      placeholder: "What does the function do and why is it needed?"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Expected Behavior"
+      description: "Outline the expected behavior of the function, including inputs and outputs."
+      placeholder: "Describe what the function will do and what results are expected."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Use Cases"
+      description: "Describe a scenario where this function could be used."
+      placeholder: "Provide a specific example or use case."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Any other information that might help understand the request (links, examples)."
+      placeholder: "Add any additional context or links here."
+    validations:
+      required: false
